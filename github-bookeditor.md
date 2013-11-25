@@ -17,7 +17,16 @@ ebook in your browser and storing the ebook itself in a github repo.
 * [NodeJS](http://nodejs.org/) and associated development tools such as npm
   and [Bower](https://github.com/bower/bower).
 
-## Installation
+## Installation with Vagrant
+* install [virtualbox](https://www.virtualbox.org/wiki/Downloads)
+* install [vagrant](http://downloads.vagrantup.com/)
+* clone [github book editor](https://github.com/oerpub/github-bookeditor) repo
+  to somewhere
+* inside the repo run `vagrant up` from a command line
+  * There is currently a bug in the build that makes it not run fully on the first pass, the workaround is to log into the vm after running `vagrant up` with `vagrant ssh`, then go into `/vagrant` and run `npm install`. That will complete the build for you.
+* Vagrant will take a while to configure the new vm when it''s done you will be able to hit "33.33.33.10" in a web browser and see the editor
+
+## Installation on Ubuntu Linux
 
 ### Installing node.js
 
