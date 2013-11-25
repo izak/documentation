@@ -12,7 +12,7 @@ ebook in your browser and storing the ebook itself in a github repo.
 * [Requirejs](http://requirejs.org/) and helpers such as
   [require-css](https://github.com/guybedford/require-css) and
   [require-less](https://github.com/guybedford/require-less)
-* Phil Schatz''s [Octokit.js](https://github.com/philschatz/octokit.js/)
+* Phil Schatz's [Octokit.js](https://github.com/philschatz/octokit.js/)
 * Our own [OERPub specific version of Aloha-Editor](https://github.com/oerpub/Aloha-Editor/)
 * [NodeJS](http://nodejs.org/) and associated development tools such as npm
   and [Bower](https://github.com/bower/bower).
@@ -24,7 +24,7 @@ ebook in your browser and storing the ebook itself in a github repo.
   to somewhere
 * inside the repo run `vagrant up` from a command line
   * There is currently a bug in the build that makes it not run fully on the first pass, the workaround is to log into the vm after running `vagrant up` with `vagrant ssh`, then go into `/vagrant` and run `npm install`. That will complete the build for you.
-* Vagrant will take a while to configure the new vm when it''s done you will be able to hit "33.33.33.10" in a web browser and see the editor
+* Vagrant will take a while to configure the new vm when it's done you will be able to hit "33.33.33.10" in a web browser and see the editor
 
 ## Installation on Ubuntu Linux
 
@@ -50,7 +50,7 @@ Now download the source tarball and compile it:
 ### Installing coffeescript
 
 Once you have node installed, you can use npm to install the rest of what you
-need. You will need coffee script and lessc if you''re going to hack on the
+need. You will need coffee script and lessc if you're going to hack on the
 Aloha code.
 
     ~/nodejs/bin/npm install -g coffee-script
@@ -116,4 +116,4 @@ in $HOME/Aloha-Editor, allowing you to do development in a familiar setting.
 
 ## Running tests
 
-We don''t presently have a testing framework. We really should have one.
+We don't presently have a testing framework. We really should have one.
