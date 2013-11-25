@@ -104,3 +104,7 @@ like this:
 
 This will create a symlink in bower_components that point to a real checkout
 in $HOME/Aloha-Editor, allowing you to do development in a familiar setting.
+
+## Running tests
+
+We don''t presently have a testing framework. We really should have one.
